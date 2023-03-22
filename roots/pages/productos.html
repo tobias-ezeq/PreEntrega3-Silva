@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--metadatos-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bstraps-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!--bstraps icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--tipografia-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    <!--css-->
+    <link rel="stylesheet" href="/roots/css/style.css">
+    <link rel="shortcut icon" href="/img/ilustration/icon-ilustration-2.png" type="image/x-icon">
+    <!--titulo-->
+    <title>Zenblends | Productos y mas informacion</title>
+</head>
+<body>
+    <!--barra de navegacion-->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html">
+            <img src="/img/ilustration/icon-ilustration-2.png" alt="Zenblends">
+          </a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Nuestros productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" id="productos-utilizados" href="/roots/pages/productos.html">Productos utilizados</a></li>
+                  <li><a class="dropdown-item" id="mas-informacion-prod" href="/roots/pages/productos.html">Mas informacion</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/roots/pages/jabones.html">Jabones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/roots/pages/shampoes.html">Shampoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/roots/pages/aceites.html">Aceites</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </nav>
+    <!--seccion principal-->
+  <main class="pt-3 bg-gradient-white">
+    <section id="productos-utilizados" class="pt-5 min-vh-100">
+      <div class="text-center">
+        <h1>Productos 100% naturales</h1>
+        <p class="fs-5">Productos de confianza y naturales para el mejor cuidado de la piel</p>
+      </div>
+      <!--carousel-->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/roots/img/demostration/avocado-demostration.jpg" class="rounded mx-auto d-block img-productos" alt="palta natural">
+          </div>
+          <div class="carousel-item">
+            <img src="/roots/img/demostration/coconut-demostration.jpg" class="rounded mx-auto d-block img-productos" alt="coco natural">
+          </div>
+          <div class="carousel-item">
+            <img src="/roots/img/demostration/coffe-demostration.jpg" class="rounded mx-auto d-block img-productos" alt="cafe en grano natural">
+          </div>
+          <div class="carousel-item">
+            <img src="/roots/img/demostration/damasco-demostration.jpg" class="rounded mx-auto d-block img-productos" alt="damasco natural">
+          </div>
+          <div class="carousel-item">
+            <img src="/roots/img/demostration/honey-demostration.jpg" class="rounded mx-auto d-block img-productos" alt="miel de panel natural">
+          </div>
+          <div class="carousel-item">
+            <img src="/roots/img/demostration/mango-demostration.jpg" class="rounded mx-auto d-block img-productos" alt="limon natural">
+          </div>
+          <div class="carousel-item">
+            <img src="" class="rounded mx-auto d-block img-productos" alt="mango natural">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div class="text-center">
+      <div class="text-center">
+        <h1>Información sobre los productos</h1>
+        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione optio pariatur et nisi hic eum, odio enim labore placeat alias numquam excepturi blanditiis fugit adipisci aliquid omnis eaque totam exercitationem.</p>
+      </div>
+  </main>
+      <!--tarjetas de informacion-->
+  <section class="bg-gradient-white">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <img src="/roots/img/demostration/avocado-demostration.jpg" class="productos-img-info" alt="">
+          <p class="fs-5">Aguacate</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi similique numquam ducimus dignissimos, tenetur quae deserunt cupiditate laborum totam perspiciatis. Veniam voluptatum voluptatem ducimus! Quidem dicta nulla reiciendis a consectetur.</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="/roots/img/demostration/coconut-demostration.jpg" class="productos-img-info" alt="">
+          <p class="fs-5">Coco</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In a ipsum doloribus assumenda, quis nulla unde voluptate veniam, incidunt iste quasi rem aut numquam esse hic minima distinctio? Tenetur, debitis.</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="/roots/img/demostration/coffe-demostration.jpg" class="productos-img-info" alt="">
+          <p class="fs-5">Cafe</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ullam aliquid fuga magnam explicabo totam maxime quisquam suscipit veritatis reprehenderit. Repellat qui minus explicabo harum dignissimos, consequatur laborum porro necessitatibus!</p>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <img src="/roots/img/demostration/damasco-demostration.jpg" class="productos-img-info" alt="">
+          <p class="fs-5">Damasco</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi similique numquam ducimus dignissimos, tenetur quae deserunt cupiditate laborum totam perspiciatis. Veniam voluptatum voluptatem ducimus! Quidem dicta nulla reiciendis a consectetur.</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="/roots/img/demostration/honey-demostration.jpg" class="productos-img-info" alt="">
+          <p class="fs-5">Miel</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In a ipsum doloribus assumenda, quis nulla unde voluptate veniam, incidunt iste quasi rem aut numquam esse hic minima distinctio? Tenetur, debitis.</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="/roots/img/demostration/lemon-demostration.jpg" class="productos-img-info" alt="">
+          <p class="fs-5">Limon</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ullam aliquid fuga magnam explicabo totam maxime quisquam suscipit veritatis reprehenderit. Repellat qui minus explicabo harum dignissimos, consequatur laborum porro necessitatibus!</p>
+        </div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-12 col-md-12">
+              <img src="/roots/img/demostration/mango-demostration.jpg" class="productos-img-info" alt="">
+              <p class="fs-5">Mango</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi similique numquam ducimus dignissimos, tenetur quae deserunt cupiditate laborum totam perspiciatis. Veniam voluptatum voluptatem ducimus! Quidem dicta nulla reiciendis a consectetur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!--pie de pagina-->
+  <footer class="bg-dark p-3">
+    <div class="container">
+      <nav class="d-flex justify-content-evenly">
+        <a href="" target="_blank"><i class="bi-facebook fs-4"></i></a>
+        <a href="" target="_blank"><i class="bi bi-whatsapp fs-4"></i></a>
+        <a href="" target="_blank"><i class="bi-youtube fs-4"></i></a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
